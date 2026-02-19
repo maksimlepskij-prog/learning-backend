@@ -1,0 +1,37 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family:
+    tahoma,
+    arial,
+    sans-serif,
+    Lucida Sans,
+    verdana;
+}
+
+ .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 15px;
+}
+
+.btn-click button{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+}
+.btn-click button:hover{
+    background-color: #212020;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.btn-click button:active{
+    transform: scale(0.95);
+
+}
