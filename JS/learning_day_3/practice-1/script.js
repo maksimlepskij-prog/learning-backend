@@ -110,7 +110,7 @@ console.log(typeof infoAge);
 
 let solutionEx = "40" / 2;
 console.log(solutionEx);
-console.log(typeof solutionEx);
+onsole.log(typeof solutionEx);
 
 // let userHeight = 0 / 145;
 
